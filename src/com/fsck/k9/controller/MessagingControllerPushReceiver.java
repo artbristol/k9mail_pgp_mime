@@ -8,11 +8,10 @@ import com.fsck.k9.Account;
 import com.fsck.k9.K9;
 import com.fsck.k9.helper.power.TracingPowerManager.TracingWakeLock;
 import com.fsck.k9.mail.Folder;
-
 import com.fsck.k9.mail.Message;
 import com.fsck.k9.mail.PushReceiver;
-import com.fsck.k9.mail.store.LocalStore;
-import com.fsck.k9.mail.store.LocalStore.LocalFolder;
+import com.fsck.k9.mail.store.local.LocalFolder;
+import com.fsck.k9.mail.store.local.LocalStore;
 import com.fsck.k9.service.SleepService;
 
 import java.util.List;

@@ -92,9 +92,9 @@ import com.fsck.k9.mail.internet.TextBodyBuilder;
 import com.fsck.k9.mail.internet.MimeMultipart;
 import com.fsck.k9.mail.internet.MimeUtility;
 import com.fsck.k9.mail.internet.TextBody;
-import com.fsck.k9.mail.store.LocalStore.LocalAttachmentBody;
-import com.fsck.k9.mail.store.LocalStore.TempFileBody;
-import com.fsck.k9.mail.store.LocalStore.TempFileMessageBody;
+import com.fsck.k9.mail.store.local.LocalAttachmentBody;
+import com.fsck.k9.mail.store.local.TempFileBody;
+import com.fsck.k9.mail.store.local.TempFileMessageBody;
 import com.fsck.k9.view.MessageWebView;
 
 import org.apache.james.mime4j.codec.EncoderUtil;
@@ -112,7 +112,6 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
 import java.text.DateFormat;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;

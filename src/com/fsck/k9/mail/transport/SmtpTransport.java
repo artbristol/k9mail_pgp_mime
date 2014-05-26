@@ -2,6 +2,7 @@
 package com.fsck.k9.mail.transport;
 
 import android.util.Log;
+
 import com.fsck.k9.Account;
 import com.fsck.k9.K9;
 import com.fsck.k9.mail.*;
@@ -12,7 +13,7 @@ import com.fsck.k9.mail.filter.LineWrapOutputStream;
 import com.fsck.k9.mail.filter.PeekableInputStream;
 import com.fsck.k9.mail.filter.SmtpDataStuffing;
 import com.fsck.k9.mail.internet.MimeUtility;
-import com.fsck.k9.mail.store.LocalStore.LocalMessage;
+import com.fsck.k9.mail.store.local.LocalMessage;
 import com.fsck.k9.net.ssl.TrustManagerFactory;
 import com.fsck.k9.net.ssl.TrustedSocketFactory;
 
@@ -29,7 +30,6 @@ import java.net.*;
 import java.security.GeneralSecurityException;
 import java.security.SecureRandom;
 import java.security.cert.CertificateException;
-
 import java.util.*;
 
 public class SmtpTransport extends Transport {
